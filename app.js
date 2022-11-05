@@ -31,7 +31,6 @@ app.get('/generic', (req, res) => {
   });
 });
 
-
 app.get('/elements', (req, res) => {
   res.render('elements', {
     nombre: 'Giovanni Rodriguez',
